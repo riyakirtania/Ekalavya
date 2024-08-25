@@ -1,21 +1,33 @@
-.App {
-  text-align: center;
+/* src/App.css */
+
+body {
+  background-color: #f8f9fa;
 }
 
-.App-logo {
-  height: 40vmin;
+.container {
+  margin-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
+button {
+  margin-right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+pre {
+  background: #e9ecef;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+table {
+  margin-bottom: 0; /* Ensure no margin between the table and collapsible content */
+}
+
+.collapse {
+  background-color: #f9f9f9;
+}
+
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
